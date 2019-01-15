@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1547470045 source:c:\users\toto\desktop\solid\lsp\lsp_01\publication.cpp
+	"Publication.h"
+	"Avion.h"
+	"EcrireHtml.h"
+	"AfficheDetails.h"
+	<iostream>
+	<string>
+	<sstream>
+
+1545169342 c:\users\toto\desktop\solid\lsp\lsp_01\publication.h
+	"Avion.h"
+
+1545174784 c:\users\toto\desktop\solid\lsp\lsp_01\avion.h
+	<stdio.h>
+	<string.h>
+	<iostream>
+
+1545090770 c:\users\toto\desktop\solid\lsp\lsp_01\ecrirehtml.h
+	"Avion.h"
+
+1545169224 c:\users\toto\desktop\solid\lsp\lsp_01\affichedetails.h
+	"Avion.h"
+
+1547470061 source:c:\users\toto\desktop\solid\lsp\lsp_01\avion.cpp
+	"Avion.h"
+	<string>
+
+1547470424 source:c:\users\toto\desktop\solid\lsp\lsp_01\affichedetails.cpp
+	"AfficheDetails.h"
+	"Avion.h"
+	<string>
+
+1547470542 source:c:\users\toto\desktop\solid\lsp\lsp_01\main.cpp
+	<limits>
+	"Publication.h"
+	"Avion.h"
+	<iostream>
+	<stdio.h>
+

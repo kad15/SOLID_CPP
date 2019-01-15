@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1547199753 source:c:\users\toto\desktop\solid\ocp\ocp_01\ecrirehtml.cpp
+	<limits>
+	"EcrireHtml.h"
+	"Avion.h"
+	<fstream>
+	<iostream>
+	<string>
+	<sstream>
+
+1545077970 c:\users\toto\desktop\solid\ocp\ocp_01\ecrirehtml.h
+	"Avion.h"
+
+1545077970 c:\users\toto\desktop\solid\ocp\ocp_01\avion.h
+	<stdio.h>
+	<string.h>
+	<iostream>
+
+1547200437 source:c:\users\toto\desktop\solid\ocp\ocp_01\main.cpp
+	<limits>
+	"Publication.h"
+	"Avion.h"
+	<iostream>
+	<stdio.h>
+
+1547199778 source:c:\users\toto\desktop\solid\ocp\ocp_01\avion.cpp
+	<limits>
+	"Avion.h"
+	<string>
+
+1544259036 c:\users\toto\desktop\solid\ocp\ocp_01\publication.h
+	"Avion.h"
+
+1547201102 source:c:\users\toto\desktop\solid\ocp\ocp_01\publication.cpp
+	"Publication.h"
+	"Avion.h"
+	"EcrireHtml.h"
+	<iostream>
+	<string>
+	<sstream>
+

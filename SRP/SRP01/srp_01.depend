@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1547117925 source:c:\users\toto\desktop\solid\srp\srp01\avion.cpp
+	"Avion.h"
+	<fstream>
+	<iostream>
+	<string>
+	<sstream>
+
+1547117925 c:\users\toto\desktop\solid\srp\srp01\avion.h
+	<stdio.h>
+	<string.h>
+	<iostream>
+
+1547117433 source:c:\users\toto\desktop\solid\srp\srp01\main.cpp
+	<limits>
+	"Avion.h"
+	<iostream>
+	<stdio.h>
+
+1547117808 source:c:\users\toto\desktop\solid\srp\srp01\ecrirehtml.cpp
+	"EcrireHtml.h"
+
+1547117808 c:\users\toto\desktop\solid\srp\srp01\ecrirehtml.h
+
