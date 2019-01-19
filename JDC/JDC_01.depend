@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1547722294 source:c:\users\toto\desktop\solid_cpp\jdc\main.cpp
+	"NumSecu.h"
+	<iostream>
+
+1547723284 source:c:\users\toto\desktop\solid_cpp\jdc\numsecu.cpp
+	"NumSecu.h"
+
+1547722452 c:\users\toto\desktop\solid_cpp\jdc\numsecu.h
+	<cstdlib>
+	<ctime>
+	<string>
+	<cstdio>
+
