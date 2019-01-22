@@ -12,3 +12,39 @@
 	<string>
 	<cstdio>
 
+1548007245 source:/home/risky/Bureau/REPOSITORIES/SOLID_CPP/JDC/NumSecu.cpp
+	"NumSecu.h"
+
+1548007288 /home/risky/Bureau/REPOSITORIES/SOLID_CPP/JDC/NumSecu.h
+	"Algos.h"
+	<string>
+
+1548019605 source:/home/risky/Bureau/REPOSITORIES/SOLID_CPP/JDC/main.cpp
+	"Nir.h"
+	<iostream>
+	<iostream>
+	<vector>
+	<limits>
+	<sstream>
+	<algorithm>
+	<fstream>
+
+1548017622 /home/risky/Bureau/REPOSITORIES/SOLID_CPP/JDC/Algos.h
+	<random>
+	<iomanip>
+	<iostream>
+
+1548027486 source:/home/risky/Bureau/REPOSITORIES/SOLID_CPP/JDC/Algos.cpp
+	"Algos.h"
+	<algorithm>
+
+1548029296 /home/risky/Bureau/REPOSITORIES/SOLID_CPP/JDC/Nir.h
+	"Algos.h"
+	<string>
+	<vector>
+	<map>
+	<sstream>
+
+1548028044 source:/home/risky/Bureau/REPOSITORIES/SOLID_CPP/JDC/Nir.cpp
+	"Nir.h"
+

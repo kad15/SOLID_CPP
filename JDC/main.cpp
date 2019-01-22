@@ -1,28 +1,108 @@
-#include "NumSecu.h"
+#include "Nir.h"
 #include <iostream>
+
 
 using namespace std;
 
 int main()
 {
+
+
+const int MAX_NIR = 5; /**< max number of NIR to generate */
+/*
+initialiser un vecteur de pointeurs vers des NIR aléatoires
+
+*/
+//std::vector<char> sex = {'1', '2', '3', '4','7','8'};
+//cout<< sex[0]<<endl;
+
+//vector<Nir *> vectorOfNirs = ;
+
+Nir * nir1 = new Nir();
+cout << "nir: "<<nir1-> nir()<<endl;
     cout << "Hello world!" << endl;
     string str;
+    cout<< Algos::alea(1,100)<<endl;
+    cout<< Algos::zeroPadding(12,3)<<endl;
  cout << str.append(10u,'.');
     return 0;
 }
 
 
-/*
-int main(void){
 
-    int i = 0;
-    int nombre_aleatoire = 0;
-    srand((unsigned int)time(NULL)); // initialisation de rand
-    for(i=0; i<100; i++){
-        nombre_aleatoire = alea(1, 10);
-        printf("%d ",nombre_aleatoire);
+
+
+
+
+
+
+
+
+
+
+
+/*
+#include <iostream>
+#include <vector>
+#include <limits>   // utilisé pour vider le buffer d entree
+#include <sstream>
+#include <algorithm>
+#include <fstream>
+
+
+
+
+void Annuaire::sauvegarder() const
+{
+ string fic = FIC;
+ ofstream flux(fic);
+ if(flux)  //On teste si tout est OK
+    {
+        for (const Personne& p : annu)
+            flux<< p.getId()<<" " << p.getNom() << " "<< p.getPrenom()<<endl;
+        cout<< "Annuaire sauvegarde dans "<<fic<<endl;
     }
-    return 0;
+    else
+    {
+        cout << "ERREUR fichier "<<  fic << endl;
+    }
+    flux.close();
+}
+
+
+void Annuaire::restaurer()
+{
+
+    int id;
+    string nom, prenom;
+    Personne p;
+    ifstream flux(FIC);
+
+    if(flux)
+    {
+        string ligne; //Une variable pour stocker les lignes lues
+
+        while(getline(flux, ligne)) //Tant qu'on n'est pas à la fin, on lit
+        {
+             cout << ligne << endl;
+            istringstream(ligne)>> id>>nom>>prenom;
+            p.setId(id);
+            p.setNom(nom);
+            p.setPrenom(prenom);
+            annu.push_back(p);
+        }
+        cout <<endl;
+        cout<< "L'annuaire "<<FIC<<" est charge : "<<endl;
+        if(annu.empty()) cout<<"Annuaire vide !"<<endl;
+    }
+    else
+    {
+        cout << "ERREUR: pas d'annuaire." << endl;
+    }
+    return ;
 
 }
+
+
+
 */
