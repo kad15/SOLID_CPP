@@ -8,23 +8,30 @@ int main()
 {
 
 
-const int MAX_NIR = 5; /**< max number of NIR to generate */
-/*
-initialiser un vecteur de pointeurs vers des NIR aléatoires
 
-*/
+
+    //const int MAX_NIR = 5; /**< max number of NIR to generate */
+    /*
+    initialiser un vecteur de pointeurs vers des NIR aléatoires
+
+    */
+
+   // Algos::alea(0, sexDomain.size()-1);
 //std::vector<char> sex = {'1', '2', '3', '4','7','8'};
 //cout<< sex[0]<<endl;
 
 //vector<Nir *> vectorOfNirs = ;
 
-Nir * nir1 = new Nir();
-cout << "nir: "<<nir1-> nir()<<endl;
+srand((unsigned)time(NULL));
+
+
+    Nir * nir1 = new Nir();
+    cout << "nir: "<<nir1-> nir()<<endl;
     cout << "Hello world!" << endl;
     string str;
-    cout<< Algos::alea(1,100)<<endl;
+    cout<< Algos::alea(0,100)<<endl;
     cout<< Algos::zeroPadding(12,3)<<endl;
- cout << str.append(10u,'.');
+    //cout << str.append(10u,'.');
     return 0;
 }
 

@@ -1,15 +1,9 @@
 #ifndef NUMSECU_H
 #define NUMSECU_H
 
-#include "Algos.h"
-#include <string>
-#include <vector>
-#include <map>
-#include <sstream>
+#include "INir.h"
 
-
-
-class  Nir
+class  Nir: public INir
 {
 public:
     Nir();
@@ -20,6 +14,7 @@ public:
     {
         nir_ = nir;
     }
+    bool isValid(const std::string& nir);
     /** getter */
     std::string nir(){
      return nir_;
@@ -39,6 +34,7 @@ private:
    std::string genMonthOfBirth();// de 01 (janvier) à 12 (décembre) ou 62 ou 63 pour un mois non connu
    std::string genDepartmentOfBirth(); // de 01 à 95, ou 2A ou 2B pour la Corse après le 1er janvier 1976, ou 96 à 99 pour des naissances à l'étranger
    std::string genCityOfBirth();  // de 001 à 989 ou 990
+   std::string genPlaceOfBirth();
    std::string genRankOfBirth();
    int keyNir(const std::string& nir);
 

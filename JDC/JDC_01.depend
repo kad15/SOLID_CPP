@@ -1,25 +1,16 @@
 # depslib dependency file v1.0
-1547722294 source:c:\users\toto\desktop\solid_cpp\jdc\main.cpp
-	"NumSecu.h"
-	<iostream>
-
-1547723284 source:c:\users\toto\desktop\solid_cpp\jdc\numsecu.cpp
-	"NumSecu.h"
-
-1547722452 c:\users\toto\desktop\solid_cpp\jdc\numsecu.h
-	<cstdlib>
-	<ctime>
-	<string>
-	<cstdio>
-
-1548007245 source:/home/risky/Bureau/REPOSITORIES/SOLID_CPP/JDC/NumSecu.cpp
-	"NumSecu.h"
-
-1548007288 /home/risky/Bureau/REPOSITORIES/SOLID_CPP/JDC/NumSecu.h
+1548194871 source:c:\users\toto\desktop\solid_cpp\jdc\algos.cpp
 	"Algos.h"
-	<string>
+	<algorithm>
 
-1548019605 source:/home/risky/Bureau/REPOSITORIES/SOLID_CPP/JDC/main.cpp
+1548195021 c:\users\toto\desktop\solid_cpp\jdc\algos.h
+	<random>
+	<iomanip>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+
+1548194871 source:c:\users\toto\desktop\solid_cpp\jdc\main.cpp
 	"Nir.h"
 	<iostream>
 	<iostream>
@@ -29,22 +20,19 @@
 	<algorithm>
 	<fstream>
 
-1548017622 /home/risky/Bureau/REPOSITORIES/SOLID_CPP/JDC/Algos.h
-	<random>
-	<iomanip>
-	<iostream>
+1548190567 c:\users\toto\desktop\solid_cpp\jdc\nir.h
+	"INir.h"
 
-1548027486 source:/home/risky/Bureau/REPOSITORIES/SOLID_CPP/JDC/Algos.cpp
-	"Algos.h"
-	<algorithm>
-
-1548029296 /home/risky/Bureau/REPOSITORIES/SOLID_CPP/JDC/Nir.h
+1548191160 c:\users\toto\desktop\solid_cpp\jdc\inir.h
 	"Algos.h"
 	<string>
 	<vector>
 	<map>
 	<sstream>
 
-1548028044 source:/home/risky/Bureau/REPOSITORIES/SOLID_CPP/JDC/Nir.cpp
+1548169183 source:c:\users\toto\desktop\solid_cpp\jdc\inir.cpp
+	"INir.h"
+
+1548190845 source:c:\users\toto\desktop\solid_cpp\jdc\nir.cpp
 	"Nir.h"
 

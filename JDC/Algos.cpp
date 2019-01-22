@@ -11,12 +11,22 @@ Algos::~Algos()
     //dtor
 }
 
-int Algos::alea(const int a, const int b)
+int Algos::alea(const int a, const int b){
+    cout<< "alea test"<<endl;
+//srand((unsigned)time(NULL));
+return(rand()%(b-a)) + a;
+}
+
+
+int Algos::alea0(const int a, const int b)
 {
-    random_device rd;
+   random_device rd;
     mt19937 gen(rd());
     uniform_int_distribution<int> dist(a, b);
-    return dist(gen);
+    int nbAlea = dist(gen);
+    if (nbAlea<=b and nbAlea>=a) return nbAlea;
+    else {cout<< "random number out of range"<<endl; exit(1); }
+
 }
 
 

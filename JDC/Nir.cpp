@@ -1,9 +1,11 @@
 #include "Nir.h"
+
 using namespace std;
 Nir::Nir()
 {
     //ctor
     map_nir["sex"] = genSex();
+    cout<< "cstr sex : "<<map_nir["sex"]<<endl;
     map_nir["year"]= genYearOfBirth();
     map_nir["month"]= genYearOfBirth();
     map_nir["department"]= genDepartmentOfBirth();
@@ -18,11 +20,14 @@ Nir::Nir()
     nir_ += map_nir["key"];
 }
 
+
+
 Nir::~Nir()
 {
     //dtor
 }
 
+ bool Nir::isValid(const std::string& nir){return true;}
 
 int Nir::keyNir(const string& nir)
 {
@@ -33,6 +38,9 @@ int Nir::keyNir(const string& nir)
     return   (97 - (n % 97));
 
 }
+
+
+
 
 string Nir::genSex()
 {
@@ -61,10 +69,14 @@ string Nir::genDepartmentOfBirth()
 
 string Nir::genCityOfBirth()
 {
-
+//Nir::genMonthOfBirth()
     return Algos::zeroPadding(Algos::alea(0, 990), 3);
 }
 
+string Nir::genPlaceOfBirth()
+{
+    return Nir::genDepartmentOfBirth() + Nir::genCityOfBirth();
+}
 string Nir::genRankOfBirth()
 {
 

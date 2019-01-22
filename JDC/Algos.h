@@ -4,6 +4,8 @@
 #include <random>
 #include <iomanip>
 #include <iostream>
+#include <time.h>
+#include <stdlib.h>
 
 class Algos
 {
@@ -13,8 +15,14 @@ class Algos
         /** Default destructor */
         virtual ~Algos();
 
-        /** return a random number in [a, b] */
+        /** return a random number in [a, b]
+        WARNING : do not forget to put line:
+        srand((unsigned)time(NULL));
+        in the main() program */
      static int alea(const int a, const int b);
+     /** better non deterministic stochastic based number generator
+      random_device does not seem to work properly with mingw32 and code::blocks on windows*/
+     static int alea0(const int a, const int b);
      static std::string zeroPadding(const int num, const int nbDigits);
 
     protected:
