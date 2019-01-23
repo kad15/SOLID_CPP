@@ -1,0 +1,5 @@
+C:/Users/toto/Desktop/SOLID_CPP/JDC/Algos.cpp:13: warning: argument 'int' of command @param is not found in the argument list of Algos::alea(const int a, const int b)
+C:/Users/toto/Desktop/SOLID_CPP/JDC/Algos.cpp:13: warning: argument 'int' of command @param is not found in the argument list of Algos::alea(const int a, const int b)
+C:/Users/toto/Desktop/SOLID_CPP/JDC/Algos.h:22: warning: The following parameters of Algos::alea(const int a, const int b) are not documented:
+  parameter 'a'
+  parameter 'b'

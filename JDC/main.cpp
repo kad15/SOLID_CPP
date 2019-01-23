@@ -4,11 +4,12 @@
 
 using namespace std;
 
+
 int main()
 {
 
 
-
+srand((unsigned int)time(NULL));/**< for alea() to work properly */
 
     //const int MAX_NIR = 5; /**< max number of NIR to generate */
     /*
@@ -22,15 +23,14 @@ int main()
 
 //vector<Nir *> vectorOfNirs = ;
 
-srand((unsigned)time(NULL));
+//srand((unsigned)time(NULL));
 
 
     Nir * nir1 = new Nir();
     cout << "nir: "<<nir1-> nir()<<endl;
     cout << "Hello world!" << endl;
     string str;
-    cout<< Algos::alea(0,100)<<endl;
-    cout<< Algos::zeroPadding(12,3)<<endl;
+    cout<< Algos::alea(0,100)<<endl;cout<< Algos::alea(0,100)<<endl;cout<< Algos::alea(0,100)<<endl;
     //cout << str.append(10u,'.');
     return 0;
 }

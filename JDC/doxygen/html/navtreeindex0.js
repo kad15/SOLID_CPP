@@ -1,0 +1,27 @@
+var NAVTREEINDEX0 =
+{
+"_algos_8h_source.html":[1,0,0],
+"_i_nir_8h_source.html":[1,0,1],
+"_nir_8h_source.html":[1,0,2],
+"annotated.html":[0,0],
+"class_algos.html":[0,0,0],
+"class_algos.html#a42e3acfd80bd78b2a5a9d08188296f02":[0,0,0,1],
+"class_algos.html#a6c192d992402478fa8b6eda45c58b477":[0,0,0,0],
+"class_i_nir.html":[0,0,1],
+"class_i_nir.html#a117022e2afe59d0250236d99116be834":[0,0,1,0],
+"class_i_nir.html#a15730cebcb93aaf847aa46ce976b6557":[0,0,1,2],
+"class_i_nir.html#a85dc40ecca7cfca5546664c12d224d97":[0,0,1,1],
+"class_nir.html":[0,0,2],
+"class_nir.html#a09d504a9f4e4e6db933660a341cb33d1":[0,0,2,3],
+"class_nir.html#a32ebb63b28b24d113367d5785b7b946b":[0,0,2,2],
+"class_nir.html#a5611639ff318800e178396b0fca1a9f3":[0,0,2,4],
+"class_nir.html#acb531fadd0455c5ccac8570f6300914d":[0,0,2,0],
+"class_nir.html#add32326b0b9414f3a0111dce2f5ab695":[0,0,2,1],
+"classes.html":[0,1],
+"files.html":[1,0],
+"functions.html":[0,3,0],
+"functions_func.html":[0,3,1],
+"hierarchy.html":[0,2],
+"index.html":[],
+"pages.html":[]
+};

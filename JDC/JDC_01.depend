@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1548194871 source:c:\users\toto\desktop\solid_cpp\jdc\algos.cpp
+1548241309 source:c:\users\toto\desktop\solid_cpp\jdc\algos.cpp
 	"Algos.h"
 	<algorithm>
 
@@ -10,7 +10,7 @@
 	<time.h>
 	<stdlib.h>
 
-1548194871 source:c:\users\toto\desktop\solid_cpp\jdc\main.cpp
+1548231882 source:c:\users\toto\desktop\solid_cpp\jdc\main.cpp
 	"Nir.h"
 	<iostream>
 	<iostream>

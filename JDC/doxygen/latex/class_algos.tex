@@ -1,0 +1,67 @@
+\hypertarget{class_algos}{}\section{Algos Class Reference}
+\label{class_algos}\index{Algos@{Algos}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_algos_a6c192d992402478fa8b6eda45c58b477}{Algos}} ()
+\item 
+virtual \mbox{\hyperlink{class_algos_a42e3acfd80bd78b2a5a9d08188296f02}{$\sim$\+Algos}} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_algos_aeea47d178f5840b4586dc7f7d6166c17}{alea}} (const int a, const int b)
+\item 
+static int \mbox{\hyperlink{class_algos_a598ade8625d3bde87533c6355c521082}{alea0}} (const int a, const int b)
+\item 
+\mbox{\Hypertarget{class_algos_ab734ff02843eea34d0b7f929c67e31e2}\label{class_algos_ab734ff02843eea34d0b7f929c67e31e2}} 
+static std\+::string {\bfseries zero\+Padding} (const int num, const int nb\+Digits)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_algos_a6c192d992402478fa8b6eda45c58b477}\label{class_algos_a6c192d992402478fa8b6eda45c58b477}} 
+\index{Algos@{Algos}!Algos@{Algos}}
+\index{Algos@{Algos}!Algos@{Algos}}
+\subsubsection{\texorpdfstring{Algos()}{Algos()}}
+{\footnotesize\ttfamily Algos\+::\+Algos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default constructor \mbox{\Hypertarget{class_algos_a42e3acfd80bd78b2a5a9d08188296f02}\label{class_algos_a42e3acfd80bd78b2a5a9d08188296f02}} 
+\index{Algos@{Algos}!````~Algos@{$\sim$Algos}}
+\index{````~Algos@{$\sim$Algos}!Algos@{Algos}}
+\subsubsection{\texorpdfstring{$\sim$Algos()}{~Algos()}}
+{\footnotesize\ttfamily Algos\+::$\sim$\+Algos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Default destructor 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_algos_aeea47d178f5840b4586dc7f7d6166c17}\label{class_algos_aeea47d178f5840b4586dc7f7d6166c17}} 
+\index{Algos@{Algos}!alea@{alea}}
+\index{alea@{alea}!Algos@{Algos}}
+\subsubsection{\texorpdfstring{alea()}{alea()}}
+{\footnotesize\ttfamily int Algos\+::alea (\begin{DoxyParamCaption}\item[{const int}]{a,  }\item[{const int}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+return a random number in \mbox{[}a, b\mbox{]} W\+A\+R\+N\+I\+NG \+: do not forget to put line\+: srand((unsigned)time(\+N\+U\+L\+L)); in the main() program
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & a \\
+\hline
+{\em int} & b \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+pseudo random number in \mbox{[}a, b\mbox{]} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_algos_a598ade8625d3bde87533c6355c521082}\label{class_algos_a598ade8625d3bde87533c6355c521082}} 
+\index{Algos@{Algos}!alea0@{alea0}}
+\index{alea0@{alea0}!Algos@{Algos}}
+\subsubsection{\texorpdfstring{alea0()}{alea0()}}
+{\footnotesize\ttfamily int Algos\+::alea0 (\begin{DoxyParamCaption}\item[{const int}]{a,  }\item[{const int}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+better non deterministic stochastic based number generator random\+\_\+device does not seem to work properly with mingw32 and code\+::blocks on windows 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Algos.\+h\item 
+Algos.\+cpp\end{DoxyCompactItemize}

@@ -10,14 +10,25 @@ Algos::~Algos()
 {
     //dtor
 }
-
+/** \brief
+ *
+ * \param int a
+ * \param int b
+ * \return pseudo random number in [a, b]
+ *
+ */
 int Algos::alea(const int a, const int b){
-    cout<< "alea test"<<endl;
-//srand((unsigned)time(NULL));
+//srand((unsigned int)time(NULL));
 return(rand()%(b-a)) + a;
 }
 
-
+/** \brief Better non deterministic stochastic random number generator
+ *  random_device not supported by all systems !!
+ * \param
+ * \param
+ * \return
+ *
+ */
 int Algos::alea0(const int a, const int b)
 {
    random_device rd;
