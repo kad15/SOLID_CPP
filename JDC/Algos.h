@@ -1,3 +1,16 @@
+/**---------------------------------------------------------------------------------------*/
+/* Classe :   Algos                                                                       */
+/*----------------------------------------------------------------------------------------*/
+/* Description : Cette classe rassemble des méthodes réutilisables dans d'autres          */
+/*               et évite la multi-responsabilité pour respecter le S de SOLID            */
+/*----------------------------------------------------------------------------------------*/
+/* Modification : Ajout d'un générateur alea() de nombre pseudo aléatoire classique       */
+/*----------------------------------------------------------------------------------------*/
+
+
+
+
+
 #ifndef ALGOS_H
 #define ALGOS_H
 

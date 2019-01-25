@@ -1,3 +1,17 @@
+/**--------------------------------------------------------------------------------------
+* Classe :   INir                                                                        
+*----------------------------------------------------------------------------------------
+* Description : Classe Abstraite i.e. Interface obligeant le re-definition des methodes  
+*               pour illustrer le O de SOLID et faire du polymorphisme si nécessaire     
+* Declinaison : OCP OpenClose principe                                                  
+* Pre-condition: Aucune  
+*                                                                                                                                                                                                                                               
+* Return:  : Une instance de cette classe                                                
+*----------------------------------------------------------------------------------------
+* Modifications :                                                                        
+*----------------------------------------------------------------------------------------
+*/
+
 #ifndef INUMSECU_H
 #define INUMSECU_H
 

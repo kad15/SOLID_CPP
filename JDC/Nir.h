@@ -1,3 +1,21 @@
+/**---------------------------------------------------------------------------------------
+* Classe :   NirXXX                                                                      
+*----------------------------------------------------------------------------------------
+* Description : Classe Abstraite i.e. Interface obligeant le re-definition des methodes  
+*               pour illustrer le O de SOLID et faire du polymorphisme si nécessaire     
+* Declinaison : OCP OpenClose principe                                                  
+* Pre-condition: Aucune                                                                  
+* Input:   : un Nir                                                                      
+*          : Si instanciee sans parametre produit un NIR aléatoire valide                
+* Output   :                                                                             
+*                                                                                        
+*                                                                                        
+* Return:  : Une instance de cette classe                                                
+*----------------------------------------------------------------------------------------
+* Modifications :                                                                        
+*----------------------------------------------------------------------------------------
+*/
+
 #ifndef NUMSECU_H
 #define NUMSECU_H
 
